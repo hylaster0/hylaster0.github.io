@@ -41,9 +41,27 @@ h2{text-align: center;}
 table{margin-right: auto; margin-left: auto; max-width: 750px;}
 </style>
 
-<body>
-I've done some fan translations on MangaDex! You can check out my profile <a href="https://mangadex.org/user/a8e2991f-2969-4057-b090-3cbbb4cedd37/hylaster?tab=uploads">here</a>! <i>Note that these are from several years ago, and my Japanese reading comprehension was much lower (and I'm still not all that great now). These will not be entirely accurate.</i></p>
-<p>I've also translated a few songs! While most popular songs have accurate subtitles available, my focus is on providing singable translations--i.e. maintainining the syllable count so you can sing along. This section is still under construction.</p>
+<head>
+<a href="../../index.html">Home</a> |
+<a href="../../Base Set Evolution/Overview.html">Base Set Evolution</a> |
+<a href="../Overview.html">Magna/SongTranslations</a> |
+</head>
 
+<body>
+<h1>Song: | Arist: </h2>
+<h2>About This Song</h2>
+<div><p>
+
+</p></div>
+
+<h2>Covers</h2>
+<div><p>We don't have any covers of this song yet, but check out the original (Japanese) video! If you make a cover, let me know [Twitter @Hylaster] and I'll update this page!</p></div>
+<div></div>
+
+<h2>Lyrics</h2>
+<div><p>
+
+</p></div>
 </body>
+
 </html>
