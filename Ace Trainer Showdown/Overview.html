@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<style>
+.thumbnail { 
+top:-50px; 
+margin: 5px;
+display:inline-block; 
+z-index:999; 
+cursor: pointer; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease; 
+} 
+
+/*change the number below to scale to the appropriate size*/ 
+.thumbnail:hover { 
+transform: scale(1.5); 
+}
+
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+li {
+    float: left
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+}
+
+.floatDiv {
+    float: left;
+    max-width: 25%;
+    overflow: wrap;
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.img {
+    object-fit: fill;
+}
+
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/Ecruteak City.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+</style>
+
+<head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Rules.html">Rulesheet</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="NotableCards.html">Notable Cards</a></li>
+                <li><a href="DeckLibrary.html">Deck Library</a></li>
+                <li><a href="Socials.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="mainContent">
+        <h1>Ace Trainer Showdown</h1>
+        <div>
+        <p>Do you have what it takes to be an Ace? Showcase your deckbuilding skills and take your games to the next level in this exciting custom format!</p>
+        <p><b>Intro Video Coming Soon!</b> For now, read up on the format below, then head to <b><a href="Socials.html">Socials</a></b> to find play partners!</a></p>
+        <h2>Format Philosophy</h2>
+        <p>Ace Trainer Showdown allows players to put their favourite Pokémon center-stage during deckbuilding. Our format is focused on creating a diverse metagame welcoming to new players. As such, <b>all cards with a Regulation Mark are legal (aka Sword & Shield onwards).</b> This decision makes it easy for new players to tell at a glance whether a card is allowed, ensures the format is playable with PTCGL's restricted cardpool, and lowers the barrier to entry. We have four additional deckbuilding rules meant to achieve our goal.</p>
+        <div class="break">
+           <div class="floatDiv">
+               <div>
+                   <h4>Ace Trainers Are Versatile</h4>
+                   Powerful multiprize Pokémon centralize the Standard metagame. Over 90% of the Pokémon printed are single prizers, and they almost never attack. For this reason, all multiprize Pokémon are banned in Ace Trainer Showdown.
+               </div>
+               <div class="imgDiv"><img src="img/Rule Box.png" alt="Charizard from Pokémon GO is legal. Radiant Charizard is also legal. Charizard ex from Obsidian flames is not." title="Radiant Charizard would also be legal. Even though it has a rulebox, it only provides 1 prize card."></div>
+            </div>
+            
+           <div class="floatDiv">
+               <h4>Ace Trainers Are Adaptable</h4>
+               While most Trainer Classes have a type specialty, Ace Trainers can draw out the power of every type. Each deck may only include a single evolution line of each type. Dig deep for potential synergies.
+               <div class="imgDiv"><img src="img/Diverse Types.png" alt="Armarouge and Ceruledge are both Fire types. They come from the same line, so running them together is legal. However, running Armarouge with Charizard is forbidden. If a Pokémon changes type on evolution, using the line counts towards both types." title="If you run Scyther and Scizor, it counts as both your Grass and your Metal line."></div>
+           </div>
+           
+           <div class="floatDiv">
+           <h4>Ace Trainers Are Prepared</h4>
+           Like a good Scout, Ace Trainers always carry a spare. All cards are limited to 2. This increases deckbuilding variety without Singleton's issues with prizing key pieces.
+            <div><img src="img/Duplicates.png" alt="Even if a card has multiple printings, you're limited to two copies of the Pokémon by its species. For example, you can't run 2 Shining Arcana Gardevoir alongside 2 Refinement Gardevoir." title="Pokémon with alternate forms in their name, like Galarian Wheezing, do not count against their base forms."></div>
+           </div>
+           <div class="floatDiv">
+           <h4>Ace Trainers Are Aware</h4>
+           (Optional)<br/>
+           A good Ace Trainer always knows their resources. At the start of the game, players may look at their face down prize cards and switch one card with a card in their hand.
+           <div><img src="img/Gladion.png" alt="This rule is similar to playing the card Gladion from Crimson Invasion." title="This guy isn't a legal card, but his spirit lives on in the rules."></div>
+           </div>
+           
+           <div style="clear: both;" />
+        </div>
+        <p>Some exceptions to the rules exist for Pokémon that require other Pokémon to function (e.g. Plusle & Minun). You can see the full details on the <a href="Rules.html">rules</a> page.
+        <h2>Ready to <a href="NotableCards.html">get building?</a></h2>
+    </div>
+</body>
+
+</html>

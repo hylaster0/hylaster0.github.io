@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.trainerStar {
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+
+header {
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.bgImg {
+    object-fit: fill;
+}
+
+.imgThird {
+    width: 25%;
+}
+
+.nestedDiv {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/Ecruteak City.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.rulesDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+}
+
+.exceptionsDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.liBlock {
+    text-align: center;
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Overview.html">Home</a></li>
+                <li><a href="Rules.html">Rulesheet</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="NotableCards.html">Notable Cards</a></li>
+                <li><a href="DeckLibrary.html">Deck Library</a></li>
+                <li><a href="Socials.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="centerDiv rulesDiv">
+        <h2>Core Rules</h2>
+        <ol>
+            <li>Cards must have a <b>Regulation Mark</b> (Sword & Shield onwards).</li>
+            <li>All Pokémon V and Pokémon ex are banned.</li>
+            <li>You may only run 2 copies of each card in your deck.</li>
+            <li>Each evolution line in your deck must be a different type.</li>
+            <li>(IRL play only) At the start of the game, each player may view their prize cards and exchange a card from their hand.</li>
+        </ol>
+    </div>
+    
+    <div class="centerDiv exceptionsDiv">
+        <h2>Exceptions & Exemptions</h2>
+        <ol>
+            <li>If a card specifically requires another card of the same type to function properly, you may run 1 copy of each card.</li>
+            <li>If a card references itself, you may run up to 4 copies of that card provided no other printings are used.</li>
+        </ol>
+        <div class="nestedDiv">
+            <img class="imgThird" src="img/Plusle.jpg">
+            <img class="imgThird" src="img/Finneon.jpg">
+            <img class="imgThird" src="img/Kirlia.jpg">
+        </div>
+        <p>Example 1: Plusle (Fusion Strike) has an attack that requires Minun. You may run 1 Plusle and 1 Minun rather than 2 Plusle in your deck.</p>
+        <p>Example 2: Finneon (Lost Origin) accelerates Energy to Pokémon with the Swim Freely attack. You may run 1 "Swim Freely" Seadra, Dewgong, and Seaking in addition to 1 Finneon. Kingdra does not have Swim Freely, so it is not allowed.</p>
+        <p>Example 3: Kirlia (Chilling Reign) has Mirage Step, allowing you to Bench 3 additional Kirlia from your deck. You may run up to 4 Mirage Step Kirlia, but may <b>not</b> run any Refinement Kirlia if more than 1 Mirage Step Kirlia is in the deck.
+    </div>
+    
+    <div class="centerDiv exceptionsDiv">
+        <h2>Even Further Beyond</h2>
+        <p>As a custom format, we've already modified the rules. If there's something you'd rather change at your local table, go for it! While not officially a part of this unofficial format, we present Trainer Stars, a set of additional deckbuilding restrictions to choose from. Due to tighter deckbuilding requirements, cards from the Sun & Moon block are also legal in this mode (and they have Regulation Marks in Japan, actually!).</p>
+        <ul>
+            <li class="liBlock"><h3>Regional Master</h3> All Pokémon and Supporters must be from the same region (e.g. "Johto").</li>
+            <li class="liBlock"><h3>Highlander</h3> All Trainer cards are reduced to a 1-copy limit. Pokémon remain at 2, but must be different printings. You may not utilize the self-reference exception.</li>
+            <li class="liBlock"><h3>Block Master</h3> All cards in the deck must come from the same block (Sun & Moon, Sword & Shield, or Scarlet & Violet).</li>
+        </ul>
+        <p>Taking on these restrictions is not without reward. For each Trainer Star added to your deck, you may run <b>1 additional ACE SPEC</b>. Each Ace Spec must be a unique type (Item, Tool, Stadium, Energy). Additionally, at the start of the game, you may swap an additional card from your hand and prizes.</p>        
+    </div>
+</body>
+</html>
