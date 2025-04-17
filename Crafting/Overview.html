@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<style>
+.Header {
+    width: 100%;
+    object-fit: none;
+    height: 250px;
+}
+
+body {
+    background-color: black;
+}
+
+.IntroDiv {
+    text-align: center;
+    color: white;
+}
+h1 {
+    color: white;
+}
+
+.Gallery {
+    max-width: 80%;
+    margin: auto;
+}
+
+.galImg {
+    width: 400px;
+    height: 375px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.galImg2xLength {
+    height: 750px;
+    display: inline-block;
+}
+
+table, th, td, tr {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Links {
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+
+
+ul {
+    list-style-type: none;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(30,30,30,0.6);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+.thumbnail:hover { 
+transform: scale(1.5); 
+z-index:999;
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease;
+
+}
+</style>
+<body>
+    <div>
+    <img class = "Header" src="img/Header.png">
+        <div class="Links">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <!--<li><a href="https://www.google.com">Etsy</a></li> -->
+            </ul>
+        </nav>
+        </div>
+    </div>
+    <div class="IntroDiv">
+    <h1>Welcome to The Studio!</h1>
+    <p>
+        Emma creates custom, handmade clay figures! From silly goblins and snakes to Pokémon inspired by Yuka Morii, take a look at the gallery below.
+    </p>
+    <p>
+    For commission inquiries, e-mail <a href="mailto:hnlvr77@gmail.com">hnlvr77@gmail.com</a>. 
+    </p>
+    </div>
+    <div class="Gallery">
+    <table>
+        <tr>
+            <td style="height: 375px;"><img class="galImg thumbnail" src="img/Mimikyu.png" title="Did it make its tail from the fence's wood?"></td>
+            <td rowspan="2" style="height: 750px;"><img class="galImg2xLength thumbnail" src="img/Figment.png" title="What is he imagining?"></td>
+            <td style="height: 375px;"><img class="galImg thumbnail" src="img/Keroppi.png" title="Keroppi is ready to play Hello Kitty: Island Adventure"></td>
+        </tr>
+        <tr>
+            <td style="height: 375px;"><img class="galImg thumbnail" src="img/Slowpoke.png" title="Fish can't climb trees, Slowpoke..."></td>
+            <td style="height: 375px;"><img class="galImg thumbnail" src="img/Ghost.png" title="Just when you least expect it, he appears."></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
