@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.trainerStar {
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+
+header {
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.bgImg {
+    object-fit: fill;
+}
+
+.imgThird {
+    width: 25%;
+}
+
+.nestedDiv {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.rulesDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+}
+
+.questionDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.liBlock {
+    text-align: center;
+}
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Overview.html">Home</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Socials.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Character Optimizer</h1>
+    <div class="centerDiv questionDiv">
+    <p>Each kart and character has their own (semi)-unique set of values deeper than the in-game stat screen leads you to believe. For example, the Fin Twin outspeeds the Baby Blooper on Water! However, Water is much less common than other terrain types, excluding water-based vehicles from the meta of Random maps. By picking the Tune Thumper, you'd gain Road Speed and Acceleration over the Fin Twin. If these are the most valuable stats, a Fin Twin combo will ALWAYS be outclassed by the Tune Thumper wiith the same character. Use this tool to select your build, the 2 stats you value the most, and see if you're secretly being outclassed--either way, the tool will provide other potential options (e.g. characters with a bit more of Stat 1 but a bit less of Stat 2).</p>
+    </div>
+    
+    <div class="questionDiv centerDiv" style="">
+    <table>
+    <tr>
+    <td>
+    <div>
+    <p>Please select your Character.</p>
+    <input type="radio" id="babypeach" name="charSelect" value="BabyPeach">
+    <label for="babypeach">Baby Peach / Baby Daisy / Para-Biddybud / Swooper </label><br/>
+    <input type="radio" id="babymario" name="charSelect" value="BabyMario">
+    <label for="babymario">Baby Mario / Goomba / Spike</label><br/>
+    <input type="radio" id="babyluigi" name="charSelect" value="BabyLuigi">
+    <label for="babyluigi">Baby Luigi / Dry Bones / Peepa</label><br/>
+    <input type="radio" id="babyrosalina" name="charSelect" value="BabyRosalina">
+    <label for="babyrosalina">Baby Rosalina / Sidestepper / Fishbone</label><br/>
+    <input type="radio" id="toadette" name="charSelect" value="Toadette">
+    <label for="toadette">Toadette / Nabbit</label><br/>
+    <input type="radio" id="toad" name="charSelect" value="Toad">
+    <label for="toad">Toad / Shy Guy / Stingby</label><br/>
+    <input type="radio" id="cheepcheep" name="charSelect" value="CheepCheep">
+    <label for="cheepcheep">Koopa Troopa / Lakitu / CheepCheep</label><br/>
+    <input type="radio" id="peach" name="charSelect" value="Peach">
+    <label for="peach">Peach / Daisy / Coin Coffer</label><br/>
+    <input type="radio" id="yoshi" name="charSelect" value="Yoshi">
+    <label for="yoshi">Yoshi / Monty Mole</label><br/>
+    <input type="radio" id="dolphin" name="charSelect" value="Dolphin">
+    <label for="dolphin">Dolphin / Bowser Jr.</label><br/>
+    <input type="radio" id="mario" name="charSelect" value="Mario">
+    <label for="mario">Mario / Rocky Wrench</label><br/>
+    <input type="radio" id="Luigi" name="charSelect" value="Luigi">
+    <label for="Luigi">Luigi / Hammer Bro / Pokey</label><br/>
+    <input type="radio" id="Penguin" name="charSelect" value="Penguin">
+    <label for="Penguin">Penguin / Birdo</label><br/>
+    <input type="radio" id="Pauline" name="charSelect" value="Pauline">
+    <label for="Pauline">Pauline / Snoowman / Pirannha Plant</label><br/>
+    <input type="radio" id="Conkdor" name="charSelect" value="Conkdor">
+    <label for="Conkdor">Conkdor / King Boo</label><br/>
+    <input type="radio" id="Rosalina" name="charSelect" value="Rosalina">
+    <label for="Rosalina">Rosalina / Cataquack</label><br/>
+    <input type="radio" id="Wario" name="charSelect" value="Wario">
+    <label for="Wario">Wario / Wiggler</label><br/>
+    <input type="radio" id="Cow" name="charSelect" value="Cow">
+    <label for="Cow">Cow / Donkey Kong / Chargin' Chuck</label><br/>
+    <input type="radio" id="Pianta" name="charSelect" value="Pianta">
+    <label for="Pianta">Pianta / Waluigi</label><br/>
+    <input type="radio" id="Bowser" name="charSelect" value="Bowser">
+    <label for="Bowser">Bowser</label><br/>
+    </div>
+    </td>
+    
+    <td>
+    <div style="">
+    <p>Please select your kart.</p>
+    <input type="radio" id="TuneThumper" value="TuneThumper" name="kartSelect">
+    <label for="TuneThumper">Standard Bike / Cute Scoot / Tune Thumper</label><br/>
+    <input type="radio" id="FinTwin" value="FinTwin" name="kartSelect">
+    <label for="FinTwin">Fin Twin / Dolphin Dasher</label><br/>
+    <input type="radio" id="RallyBike" value="RallyBike" name="kartSelect">
+    <label for="RallyBike">Rally Bike / Hyper Pipe</label><br/>
+    <input type="radio" id="PipeFrame" value="PipeFrame" name="kartSelect">
+    <label for="PipeFrame">Pipe Frame</label><br/>
+    <input type="radio" id="Biddybuggy" value="Biddybuggy" name="kartSelect">
+    <label for="Biddybuggy">Biddybuggy</label><br/>
+    <input type="radio" id="MachRocket" value="MachRocket" name="kartSelect">
+    <label for="MachRocket">Mach Rocket / R.O.B. H.O.G.</label><br/>
+    <input type="radio" id="LocoMoto" value="LocoMoto" name="kartSelect">
+    <label for="LocoMoto">Loco Moto</label><br/>
+    <input type="radio" id="BabyBlooper" value="BabyBlooper" name="kartSelect">
+    <label for="BabyBlooper">Baby Blooper</label><br/>
+    <input type="radio" id="StandardKart" value="StandardKart" name="kartSelect">
+    <label for="StandardKart">Standard Kart / Plushbuggy</label><br/>
+    <input type="radio" id="BlastronautIII" value="BlastronautIII" name="kartSelect">
+    <label for="BlastronautIII">Blastronaut III</label><br/>
+    <input type="radio" id="DreadSled" value="DreadSled" name="kartSelect">
+    <label for="DreadSled">Dread Sled</label><br/>
+    <input type="radio" id="RibbitRevster" value="RibbitRevster" name="kartSelect">
+    <label for="RibbitRevster">Cloud 9 / Ribbit Revvster / Carpet Flyer</label><br/>
+    <input type="radio" id="FunkyDorrie" value="FunkyDorrie" name="kartSelect">
+    <label for="FunkyDorrie">Funky Dorrie</label><br/>
+    <input type="radio" id="ZoomBuggy" value="ZoomBuggy" name="kartSelect">
+    <label for="ZoomBuggy">Zoom Buggy / Rally Kart</label><br/>
+    <input type="radio" id="BumbleV" value="BumbleV" name="kartSelect">
+    <label for="BumbleV">Roadster Royale / B-Dasher / Hot Rod / Bumble V</label><br/>
+    <input type="radio" id="WTwinChopper" value="WTwinChopper" name="kartSelect">
+    <label for="WTwinChopper">W-Twin Chopper</label><br/>
+    <input type="radio" id="Billdozer" value="Billdozer" name="kartSelect">
+    <label for="Billdozer">Billdozer / Big Horn</label><br/>
+    <input type="radio" id="Rallygator" value="Rallygator" name="kartSelect">
+    <label for="Rallygator">Rallygator</label><br/>
+    <input type="radio" id="StellarSled" value="StellarSled" name="kartSelect">
+    <label for="StellarSled">Stellar Sled</label><br/>
+    <input type="radio" id="LobsterRoller" value="LobsterRoller" name="kartSelect">
+    <label for="LobsterRoller">Lobster Roller</label><br/>
+    <input type="radio" id="Mecha Trike" value="MechaTrike" name="kartSelect">
+    <label for="MechaTrike">Mecha Trike</label><br/>
+    <input type="radio" id="BowserBruiser" value="BowserBruiser" name="kartSelect">
+    <label for="BowserBruiser">Bowser Bruiser / Lil' Dumpy / Tiny Titann / Chargin Truck</label><br/>
+    <input type="radio" id="ReelRacer" value="ReelRacer" name="kartSelect">
+    <label for="ReelRacer">Reel Racer</label><br/>
+    <input type="radio" id="JunkyardHog" value="JunkyardHog" name="kartSelect">
+    <label for="JunkyardHog">Junkyard Hog</label><br/>
+    </div>
+    </td>
+    </tr>
+    </table>
+    </div>
+
+    <div class="questionDiv centerDiv">
+    <table>
+    <tr>
+    <td>
+    <div>
+    <p>Choose the first stat to optimize for.</p>
+    <input type="radio" id="RoadSpeed" value="roadspeed" name="Stat1">
+    <label for="RoadSpeed">Road Speed</label><br/>
+    <input type="radio" id="TerrainSpeed" value="terrainspeed" name="Stat1">
+    <label for="TerrainSpeed">Terrain Speed</label><br/>
+    <input type="radio" id="WaterSpeed" value="waterspeed" name="Stat1">
+    <label for="WaterSpeed">Water Speed</label><br/>
+    <input type="radio" id="avgspeed" value="avgspeed" name="Stat1">
+    <label for="avgspeed">Average Speed (Road/Terrain) (Excludes Water)</label><br/>    
+    </div>
+    </td>
+    <td>
+    <div>
+    <p>Choose the second stat to optimize for.</p>
+    <input type="radio" id="Accel" value="accel" name="Stat2">
+    <label for="Accel">Acceleration</label><br/>
+    <input type="radio" id="Handling" value="handling" name="Stat2">
+    <label for="Handling">Handling</label><br/>
+    </div>
+    </td>
+    </tr>
+    </table>
+    </div>
+    <div class="questionDiv centerDiv">
+        <button type="button" id="OptimizeButton" onclick="checkForOptimalPicks(">Check For Optimized Status</button>
+        <div id="resultsBlurb"></div>
+        <div id="resultsText">
+        </div>
+    </div>
+    
+    <div class="questionDiv centerDiv">
+        <p>The options displayed here are a list of all optimized kart combos for the selected stats.</p>
+        <div id="paretocurve"></div>
+    </div>
+    <script src="CartOptimizer.js"></script>
+</body>
+
+</html>

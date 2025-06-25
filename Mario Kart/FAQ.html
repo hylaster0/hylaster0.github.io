@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.trainerStar {
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+
+header {
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.bgImg {
+    object-fit: fill;
+}
+
+.imgThird {
+    width: 25%;
+}
+
+.nestedDiv {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.rulesDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+}
+
+.questionDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.liBlock {
+    text-align: center;
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Socials.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>FAQ</h1>
+    
+    <div class="centerDiv questionDiv">
+        <p>Q: Why are my combos outclassed in BOTH stats?</p>
+        <p>Your combo is likely specialized in something else! A water-based character in a water-based kart is going to be significantly slower on the road.</p>
+    </div>
+    
+    <div class="centerDiv questionDiv">
+        <p>Q: Why isn't Bowser showing up when optimizing for Road Speed? He's the fastest character.</p>
+        <p>Bowser has an even distribution of 9 speed across the board. Howevver, specialist characters like Wario and Cow match Bowser on their preferred terrain. By being in a lower weight class, these characters have an extra point of Acceleration and Handling, meaning Bowser is always outclassed when looking at a single type of road. On the other hand, Bowser will ALWAYS show up when optimizing for Average Speed, as no other character can reach quite as high!.</p>
+    </div>
+    <div class="centerDiv questionDiv">
+        <p>Q: Can I help improve the site?</p>
+        <p>If you have a suggestion to improve the optimizer or any other tools that should be included on the site, join our Discord from the Socials tab and send us a DM.</p>
+    </div>
+</body>
+
+</html>
