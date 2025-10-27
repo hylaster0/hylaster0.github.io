@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<style>
+.thumbnail { 
+top:-50px; 
+margin: 5px;
+display:inline-block; 
+z-index:999; 
+cursor: pointer; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease; 
+} 
+
+/*change the number below to scale to the appropriate size*/ 
+.thumbnail:hover { 
+transform: scale(1.5); 
+}
+
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+li {
+    float: left
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+}
+
+.floatDiv {
+    float: left;
+    max-width: 25%;
+    overflow: wrap;
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.img {
+    object-fit: fill;
+}
+
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/Background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+</style>
+
+<head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Overview.html">Home</a></li>
+                <li><a href="Errata.html">Errata</a></li>
+                <li><a href="Banlist.html">Banlist</a></li>
+                <li><a href="Keywords.html">Keywords</a></li>
+                <li><a href="Rules-FAQ.html">Rulings FAQ</a></li>
+                <li><a href="AltFormats.html">Alternate Formats</a></li>
+                <li><a href="Socials.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="mainContent">
+        <h1>Neopets Battledome TCG Ruling Database</h1>
+        <div>
+        <p>This site is intended to help players address common issues and rules disputes that come up while playing the game. This site is fan-run and not a replacement for the official Comprehensive Rules. Click a header for more details.</p>
+        <div class="break">
+           <div class="floatDiv">
+               <div>
+                   <a href="Errata.html"><h4>Erratas</h4></a>
+                   Sometimes, the intended effect of a card contradicts the words printed it. This section contains a list of known official corrections.
+               </div>
+            </div>
+            
+           <div class="floatDiv">
+               <a href="Banlist.html"><h4>Forbidden & Limited List</h4></a>
+               <p>Some cards have been deemed too powerful for official play. Before heading to a tournament, make sure your deck complies with the list.</p>
+           </div>           
+           <div class="floatDiv">
+           <a href="Keywords.html"><h4>Keywords</h4></a>
+           <p>A brief description of each keyword found on cards ("Scrap", "Recycle", etc.) 
+           </div>           
+           <div class="floatDiv">
+           <a href="Rules-FAQ.html"><h4>Rules FAQ</h4></a>
+           <p>A collection of some of the most commonly asked rules questions.</p>
+           </div>
+           <div style="clear: both;" />
+        </div>
+        
+        <div>
+        <h2>Looking for play partners? Check the <a href="Socials.html">Socials</a> tab!
+        </div>
+    </div>
+</body>
+
+</html>
