@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.trainerStar {
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+
+header {
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.bgImg {
+    object-fit: fill;
+}
+
+.imgThird {
+    width: 25%;
+}
+
+.nestedDiv {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/Background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.rulesDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+}
+
+.questionDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.liBlock {
+    text-align: center;
+}
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Overview.html">Home</a></li>
+                <li><a href="Errata.html">Errata</a></li>
+                <li><a href="Banlist.html">Banlist</a></li>
+                <li><a href="Keywords.html">Keywords</a></li>
+                <li><a href="Rules-FAQ.html">Rulings FAQ</a></li>
+                <li><a href="AltFormats.html">Alternate Formats</a></li>
+                <li><a href="Socials.html">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Errata</h1>
+    
+    <div class="centerDiv questionDiv">
+        <p>The following cards work differently than their previous printings imply.</p>
+    </div>
+    
+    <div class="centerDiv questionDiv">
+        <p>Ghost Pets</p>
+        <p>These cards now say "During either player's Battle Phase, you may <b>discard a card from your Inventory</b>; gain 2 Attack or 2 Defence this turn.</p>
+        <p>"Sending a card" did not count as "discarding", previously preventing this effect from triggering cards like Ghost Lupe's Sword.</p>
+    </div>
+
+    <div class="centerDiv questionDiv">
+        <p>Breadmaster, Lab Ray Scientist</p>
+        <p>The 2nd sentence on each of these cards now begin with "If you do". You must have at least 3 other cards in hand to use Breadmaster's search/play effect and at least 2 other cards to search with Scientist.</p>
+    </div>
+
+
+</body>
+
+</html>
