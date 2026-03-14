@@ -1,0 +1,149 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.siteheaderlogo {
+    text-align: center;
+    font-size: 96px;
+    
+}
+
+.siteFooter {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.siteheader {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.questionDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+li {
+    float: left
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+
+h1{text-align: center;}
+
+.floatDiv {
+    float: left;
+    max-width: 30%;
+    min-width: 550px;
+    overflow: wrap;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+body{
+margin-top: 40px;
+margin-left: 100px;
+margin-right: 100px;
+font-family: Arial;
+}
+
+table{margin-right: auto; margin-left: auto;}
+
+
+
+img {
+    max-width: 100%
+}
+
+.later {
+    diisplay: block
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}

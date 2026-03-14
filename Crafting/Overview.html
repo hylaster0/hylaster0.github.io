@@ -24,6 +24,15 @@ h1 {
     margin: auto;
 }
 
+.siteheaderlogo {
+    color: white;
+}
+
+.siteheader {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 .galImg {
     width: 400px;
     height: 375px;
@@ -45,13 +54,14 @@ table, th, td, tr {
 .Links {
     position: absolute;
     top: 10px;
-    left: 5%;
+    width: 90%;
 }
 
 
 ul {
     list-style-type: none;
     justify-content: right;
+    width: 100%
 }
 
 a {
@@ -64,6 +74,7 @@ li a {
     text-align: center;
     padding: 16px;
     background: rgba(30,30,30,0.6);
+    width: 100%
 }
 
 li a:hover{
@@ -79,18 +90,15 @@ z-index:999;
 
 }
 </style>
+
+<head>
+    <script src="../headerloader.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <div id="siteHeader" class="siteheader"></div>
+</head>
+
 <body>
-    <div>
-    <img class = "Header" src="img/Header.png">
-        <div class="Links">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <!--<li><a href="https://www.google.com">Etsy</a></li> -->
-            </ul>
-        </nav>
-        </div>
-    </div>
+
     <div class="IntroDiv">
     <h1>Welcome to The Studio!</h1>
     <p>
@@ -102,6 +110,9 @@ z-index:999;
     </div>
     <div class="Gallery">
     <table>
+        <tr>
+            <td colspan="3"><img style="display: inline-block; width: 1200px;"class="thumbnail" src="img/Header.png"></td>
+        </tr>
         <tr>
             <td style="height: 375px;"><img class="galImg thumbnail" src="img/Mimikyu.png" title="Did it make its tail from the fence's wood?"></td>
             <td rowspan="2" style="height: 750px;"><img class="galImg2xLength thumbnail" src="img/Figment.png" title="What is he imagining?"></td>

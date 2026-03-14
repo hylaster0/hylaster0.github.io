@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+font-family: Arial;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.trainerStar {
+    list-style-type: circle;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,215,0,1);
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background: rgba(221,221,221,0.5);
+}
+
+li a:hover{
+    background-color: rgba(255,215,0,0.6);
+}
+
+
+header {
+}
+
+.centerDiv {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+.bgImg {
+    object-fit: fill;
+}
+
+.imgThird {
+    width: 25%;
+}
+
+.nestedDiv {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/CubeBackground.png');
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+}
+
+.rulesDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+}
+
+.questionDiv{
+    background: rgba(0,0,0,0.6);
+    outline: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.liBlock {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+</style>
+
+<head>
+    <script src="../../headerloader.js" defer></script>
+    <link rel="stylesheet" href="../../styles.css">    
+    <div id="pokemonHeader" class="siteheader"></div>
+</head>
+
+<body>
+    <div class="mainContent">
+    <h1>Cube</h1>
+    <div class="questionDiv">
+    <h2>What is Cube?</h2>
+    <div>Cubes are a preselected, prebuilt set of cards that all players share for a play session. With an entirely contained set of cards, the power level of a cube format is entirely up to its builder. While decks can be freely constructed to showcase the cube to new players, the traditional cube format employs draft-style gameplay.</div>
+    </div>
+    <div class="questionDiv">
+    <h2>How to Draft?</h2>
+    <div>Begin by shuffling the contents of the cube. Then, separate the cards into randomized packs. Each player picks a pack, selects one card, and then passes the pack to the left. When the pack is empty, all players take another pack and repeat the process, this time passing the packs to the right. This process repeats until all packs are drafted.</div>
+    <div>A good starting point for a cube is to give each player 3 packs of 15 cards. For example, a basic 4 player cube should aim for 180 cards. Some cubes alter the drafting phase to include more cards, such as including a 4th pack or making the packs contain additional cards.</div>
+    <div>Once the draft is complete, players build their decks and play against each other. Basic Energy is never included in the Cube and should be available for all players after the draft completes. A typical cube will have players construct 40 card decks for 4 prize games, but larger cubes can accomodate 60 cards/6 prizes.</div>
+    </div>
+    <div class="questionDiv">
+    <h2>Cubing with 2 Players</h2>
+    <div>Traditional pack drafting doesn't work well with only 2 players. Instead, have players take turns revealing 8 cards from the cube. The player revealing the cards splits them into 2 groups. Then, the other player chooses which of the 2 piles to keep. Swap roles between splitting and choosing each time.</div>
+    </div>
+    <div class="questionDiv">
+    <h2>Cube Ratios</h2>
+    <div>Players can include any cards they want, but a balanced start is 2/3rds Pokémon and 1/3rd Trainers. Try to include a balance of Draw Supporters, type specific support, and generic tools. Many cubes will focus on large quantities of the same Pokémon (e.g. 8 Charmander, 6 Charmeleon, 4 Charizard), but it is equally common for cubes to be entirely Singleton or to include 2-2-2 lines.</div>
+    </div>
+    <div class="questionDiv">
+    <h2>Alternate Cube Rules</h2>
+    <h3>Mutant Evolution</h3>
+    <div>In this ruleset, Pokémon can evolve into ANY Pokémon of the same type (e.g. Charmander -> Rapidash -> Incineroar).</div>
+    <h3>Free Basics</h3>
+    <div>In this ruleset, Basic and Stage 1 Pokémon are removed from the cube and set aside. When a player drafts a Stage 2 Pokémon, they receive the basic and stage 1 as part of their draft pool without spending turns picking them.</div>
+    <h3>Game Changes</h3>
+    <div>Cubes with a focus on cards from older formats frequently change rules to match the time period of the printed cards. Common changes include allowing the player to attack or use a supporter on the first turn but removing the first turn draw.</div>
+    </div>
+    <div class="questionDiv">
+    <h2>Sample Cubes</h2>
+    <div>Visit <a href="https://www.cubekoga.net">Cube Koga</a> to view a variety of community cubes. We've designed a Johto Cube, in which all the Pokémon are tied to Johto, and <a href="https://cubekoga.net/Cube/18876">Crazy Hand</a>, a cube focused on mechanics like coin flips and prize manipulation.</div>
+    <div><i>Copying another player's cube can be expensive! Consider using Cube Koga's export function to print out proxies for your group, or, even better, use your own favourite cards and bulk to create a unique experience!</i></div>
+    </div>
+    </div>
+    
+    <div id="siteFooter" class="sitefooter"></div>
+
+</body>
+
+</html>
