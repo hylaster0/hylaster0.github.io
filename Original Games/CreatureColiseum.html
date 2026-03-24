@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1{text-align: center;}
+
+.floatDiv {
+    float: left;
+    max-width: 30%;
+    min-width: 550px;
+    overflow: wrap;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+img {
+    max-height: 300px;
+    max-width: 30%
+}
+
+.later {
+    diisplay: block
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.9),
+            rgba(0,0,0,0.9)
+        ),
+        url('img/Ecruteak City.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+</style>
+
+<head>
+    <script src="../headerloader.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <div id="siteHeader" class="siteheader"></div>
+</head>
+  
+
+<body>
+    <div class="mainContent">
+        <h1>Creature Coliseum</h1>
+        <div>
+        <h3>Introduction</h3>
+        <p>Assemble a team of 3 monsters to fight other players in the Coliseum! Use each monster's unique attacks and skills to answer age-old questions like "Can Mothman take down a Kappa?" Last player standing wins!</p>
+        </div>
+        
+        <div>
+        <h3>Card Samples</h3>
+        <img src="img/Slime.png" />
+        <img src="img/Attack.png" />
+        <img src="img/Tactic.png" />
+        <p>Each monster has its own HP value and 2 skills: one that's always active, and one that's reserved for the monster you pick as your Boss. The Boss Monster also gains a 2nd benefit; they cannot be targeted by actions until one of your other monsters is defeated.<br/><br/>
+        Each action has a cost indicated in the top left, which is paid for using other cards in your deck. At the start of each turn, you may place a card from your hand face-up in your Action Point pool to be used for that monster's actions each turn. At the end of your turn, you may put any number of cards from your hand face-down in your Temporary AP pool. Temp AP works for any monster's action, but is discarded after use. At the start of each turn, draw until you have 5 cards in hand.<br/><br/>
+        Change things up with a Tactic! At the start of the game, each player reveals 4 tactics and places them on the side of the play area. Any player may use Temp AP to pay for a Tactic. Once a Tactic is used, it is discarded, so you'll need to balance using them at the perfect time with the threat of the opponent using it before you.
+        </p>
+        </div>
+        <div>
+        <h3>Demo</h3>
+        <p>Try out our demo in <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3411977479">Tabletop Simulator</a>!
+        </div>
+    </div>
+</body>
+
+</html>
