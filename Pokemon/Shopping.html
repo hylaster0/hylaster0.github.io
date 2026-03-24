@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<style>
+.mainContent {
+    display: block;
+}
+
+div {
+    text-align: center;
+}
+
+.container {
+    display: flex;               /* Arrange child divs side-by-side */
+    align-items: center;         /* Vertically center content */
+    margin: auto;
+}
+
+.image-box img {
+    max-width: 15%;             /* Limit image size */
+    height: auto;                 /* Keep aspect ratio */
+    display: block;
+}
+
+.text-box {
+    flex: 1;
+}
+
+.imgDiv {
+    max-width: 100%;
+}
+
+img {
+    object-fit: fill;
+}
+
+h1{text-align: center;}
+
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)
+        ),
+        url('img/ShoppingBackground.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.productDiv {
+    max-width: 20%;
+    float: left;
+    min-width: 350px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+</style>
+    <head>
+    <script src="../headerloader.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <div id="pokemonHeader" class="siteheader"></div>
+    </head>
+  
+  <body>
+    <div class="mainContent">
+    <h1>Products For Everyone</h1>
+    <div><p>Regardless of what other products you pick out, players of all ages and experience types benefit from accessories. Card Sleeves and a Deck Box are essential for any new players, while Playmats offer a chance to show off the giftee's favourite Pokémon or style.</p></div>
+    <div class="productDiv" id="productDiv ">
+            <img src="img/accessory.png"></img>
+    </div>
+    <div class="productDiv" id="productDiv ">
+            <img src="img/Sleeves.png"></img>
+    </div>
+    <div class="productDiv" id="productDiv ">
+            <img src="img/Playmat.png"></img>
+    </div>
+    <div style="clear: both;" />
+
+    <h1>Young Children (Kids 5 and under)</h1>
+    <div class="productDiv">
+        <div class="imgDiv"><img src="img/battle_academy.png"></div>
+            <div>
+                <p>The Battle Academy is the perfect introduction to card games. Each set comes with THREE complete decks, a game board, and even a step-by-step tutorial to teach you the rules of the game.</p> 
+            </div>
+    </div>
+    <div class="productDiv">
+            <div class="imgDiv"><img src="img/singles_card_back.png"></div>
+            <div>
+                <p>Online Mystery Packs (bulk lots of 100+ cards) run about $0.10 per card and are the cheapest option for young kids. These cards will NEVER be "good", but young kids often enjoy the variety and care more about the Pokémon on the cards than about the game.</p> 
+            </div>
+    </div>
+    <div class="productDiv">
+            <div class="imgDiv"><img src="img/booster_pack.png"></div>
+            <div>
+                <p>Booster Packs offer a cheap, fun gateway to gambling. <i>Note: The MSRP for a Booster Pack is $4.50. Due to shortages, many stores are selling individual packs at upwards of double MSRP. Reasonably priced boosters make OK gifts, but we highly suggest other products if you can't find them.</i></p>
+            </div>        
+    </div>
+    
+    <div style="clear: both;" />
+
+    <h1>Casual Players</h1>
+    <div><p>These products are best for playing against friends and family.</div>
+    <div class="productDiv">
+        <div class="imgDiv"><img src="img/ETB.png"></div>
+            <div>
+                <p>Elite Trainer Boxes are the perfect product for casual collectors, sporting 9 booster packs, themed accessories like dice and sleeves, and an exclusive promo card.</p> 
+            </div>
+    </div>
+    <div class="productDiv">
+            <div class="imgDiv"><img src="img/BuildAndBattle.png"></div>
+            <div>
+                <p>Build & Battle Boxes provide premade 40-card decks, 4 booster packs, and an exclusive promo card. Designed initially for prerelease play, casual players can experience the thrill of opening packs and upgrading the included deck with the contents.</p> 
+            </div>
+    </div>
+    
+    <div class="productDiv">
+            <div class="imgDiv"><img src="img/WorldChampDeck.png"></div>
+            <div>
+                <p>World Championship Decks are official replicas of professional players' decks, offering the complete Pokémon TCG experience at the cheapest price possible. However, commemorative card backs and stamped cards make them ineligible for competitive play. These decks are much stronger than other premade products, so you'll want 2 different ones to pair against each other.</p> 
+            </div>
+    </div>
+
+    <div style="clear: both;" />
+
+    <h2>Intermediate</h2>
+    <p>Intermediate products are starting points for anyone that would visit their local card shop for casual play or tournaments.</p>
+    <div class="floatDiv">
+        <div class="imgDiv"><img src="img/league_battle_deck.png"></div>
+        <div>
+            <p>The League Battle Deck provides an out-of-the-box competitive deck ready for local tournaments. Kids as young as 7 compete in the World Championships, so don't be afraid to jump right in if they show interest.</p>
+        </div>
+    </div>
+    
+    <div class="floatDiv">
+        <div class="imgDiv"><img src="img/trainers_toolkit.png"></div>
+        <div>
+            <p>This product contains dice, sleeves, and 50+ Trainer cards, providing a foundation for aspiring players. Alongside 4 booster packs and exclusive promo cards, it's a product that can appeal to any type of player.</p>
+        </div>
+    </div>   
+
+    <div style="clear: both;" />
+
+    <h2>Competitive</h2>
+    <div><p>Established competitive players can be difficult to shop for. They likely already have a deck and their favourite accessories, but they're also the most likely to know what they're looking for. Consider asking directly, or, if you want to keep it a surprise, use TCGPlayer to purcahse high-rarity full-art versions of their favourite Pokémon or staple trainers from the <a href="Standard/NoteworthyCards.html">Noteworthy Cards List</a></p></div>
+    </div>
+
+    <div class="siteFooter" id="siteFooter"></div>
+    
+  </body>
+</html>

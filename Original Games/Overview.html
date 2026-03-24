@@ -1,17 +1,102 @@
 <!DOCTYPE html>
-
 <html>
+<style>
+.thumbnail { 
+top:-50px; 
+margin: 5px;
+display:inline-block; 
+z-index:999; 
+cursor: pointer; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease; 
+} 
+
+/*change the number below to scale to the appropriate size*/ 
+.thumbnail:hover { 
+transform: scale(1.5); 
+}
+
+body{
+margin: 100px;
+font-family: Arial;
+}
+
+
+h1{text-align: center;}
+
+table{margin-right: auto; margin-left: auto;}
+
+.floatDiv {
+    float: left;
+    max-width: 30%;
+    min-width: 550px;
+    overflow: wrap;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+img {
+    max-width: 100%
+}
+
+.later {
+    diisplay: block
+}
+
+.mainContent {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.9),
+            rgba(0,0,0,0.9)
+        ),
+        url('img/Ecruteak City.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+</style>
+
+<head>
+    <script src="../headerloader.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+    <div id="siteHeader" class="siteheader"></div>
+</head>
+
 <body>
-<main>
-<h1>Original Games</h1>
-<h2>Monster Mash</h2>
-<p>Cryptids, Yokai, and monsters galore! In this card game, each player constructs a team of 3 monsters to battle it out. Each monster comes with unique attacks and special skills to turn the tide of battle. View the full details <a href="../Monster Mash/Overview.html">here</a>.</p>
 
-<h2>Penguin Party</h2>
-<p>Penguin Party is a fast, easy-to-learn game in which players compete to create the best night of fun for their feathered friends. Invite guests, cater your menu, and grab the right decorations and accessories to make sure your Igloo is the coolest place in town. Check out the full details <a href="../Penguin Party/Overview.html">here</a>.</p>
+<div class="mainContent" style="text-align: center">  
+    <p>Original games ranging from early betas to full releases (someday).</p>
 
-<h2>Project Voltage</h2>
-<p>An electrifying card game! Use the rising voltage to play powerful Units and implement winning tactics. More information coming soon.</p>
-</main>
+    <div class ="floatDiv">
+        <a href="CreatureColiseum.html"><img src="img/CreatureColiseum.png"></img></a>
+        <p>Cryptids, Yokai, and monsters galore! Build a team of 3 and battle it out with their uniquue attacks and game-altering skills!</p>
+    </div>
+    <div class="floatDiv">
+        <a href="PenguinParty.html"><img src="img/PenguinParty.png"></a>
+        <p>Collect food, decorations, and (penguin) guests to throw the best party on the ice block in this fast, easy-to-learn drafting game.</p>
+    </div>
+    <div class="floatDiv">
+        <!--<a href="WirePower.html"><img src="img/WirePower.png"></img></a>!-->
+        <img src="img/WirePower.png">        
+        <p>An electrifying Trading Card Game experience where every zone on the limited playing space matters.</p>
+    </div>
+    <div class="floatDiv">
+        <!--<a href="TicTacGrow.html"><img src="img/TicTacGrow.png"></img></a>!-->
+        <img src="img/TicTacGrow.png">
+        <p>A free, no-ad Tic-Tac-Toe rework inspired by 1980's Arcade games.</p>
+    </div>
+
+    <div style="clear: both;" />
+</div>
+
+    <div id="siteFooter" class="siteFooter"></div>
 </body>
+
 </html>
