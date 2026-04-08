@@ -23,7 +23,7 @@ try {
 } catch {
     // pokemon pages will have a special header instead to tie things nicer together
     document.getElementById("pokemonHeader").innerHTML = `
-        <div class="siteheaderlogo">Hylaster</div>
+        <div class="siteheaderlogo">Hylaster's PokéHub</div>
         <div class="navbar">
             <a href="https://hylaster0.github.io/Pokemon/index.html">Pokémon Hub Home</a>
             <div class="dropdown">
