@@ -34,6 +34,7 @@ try {
                     <a href="https://hylaster0.github.io/Pokemon/Standard/MetaDecks.html">Meta Decks</a>
                     <a href="https://hylaster0.github.io/Pokemon/Standard/CasualDecks.html">Casual Decks</a>
                     <a href="https://hylaster0.github.io/Pokemon/Standard/NoteworthyCards.html">Noteworthy Cards</a>
+                    <a href="https://hylaster0.github.io/Pokemon/Standard/Rotation.html">Rotation</a>
                 </div>
             </div>
             <div class="dropdown">

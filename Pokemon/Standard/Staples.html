@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+.thumbnail { 
+top:-50px; 
+left:-35px; 
+display:inline-block; 
+justify-content:center;
+margin: 0 auto;
+z-index:998; 
+!<--cursor: pointer; -->
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease;
+max-height: min(30vw, 346px);
+max-width: min(30vw, 249px);
+} 
+
+/*change the number below to scale to the appropriate size*/ 
+.thumbnail:hover { 
+transform: scale(1.5); 
+z-index:999;
+}
+
+</style>
+
+<head>
+    <script src="../../headerloader.js" defer></script>
+    <link rel="stylesheet" href="../../styles.css">    
+    <div id="pokemonHeader" class="siteheader"></div>
+</head>
+
+<body>
+
+<div class="mainContent" style="text-align: center">  
+    <p>The core cards in a deckbuilder's toolkit, now in visual form!</p>
+
+    <div>
+        <h2>Top Essentials</h2>
+            <img src="img/LilliesDetermination.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/BosssOrders.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/Crispin.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/TeamRocketsPetrel.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/BuddyBuddyPoffin.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/NightStretcher.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/PokePad.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/UltraBall.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/UnfairStamp.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/SecretBox.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/FezandipitiEX.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/Munkidori.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/Budew.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/MeowthEX.png" class="thumbnail" height="346" width="249" /> 
+            <img src="img/LatiasEX.png" class="thumbnail" height="346" width="249" /> 
+        
+    </div>
+    <div style="clear: both;"></div>
+
+</div>
+<div class="siteFooter" id="siteFooter"></div>
+
+</body>
+
+</html>

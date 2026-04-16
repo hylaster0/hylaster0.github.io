@@ -13,6 +13,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  outline: 1px solid gold;
 }
 
 /* The dropdown container */
@@ -75,8 +76,8 @@
 }
 
 .siteFooter {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
 }
 
@@ -125,10 +126,20 @@ h1{text-align: center;}
 
 body{
 margin-top: 40px;
-margin-left: 50px;
-margin-right: 50px;
 font-family: Arial;
 font-size: 20px;
+line-height: 1.25;
+}
+body {
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.9),
+            rgba(0,0,0,0.9)
+        ),
+        url('');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FDFDFD;
 }
 
 table{margin-right: auto; margin-left: auto;}
@@ -145,6 +156,6 @@ img {
 
 .mainContent {
     display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
